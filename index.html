@@ -2,11 +2,13 @@
 <html lang="ru">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 	<title>Test</title>
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,7 +16,7 @@
 <header>
 	
 	<div class="wrapper">
-		<div class="header-wrap">
+		<div class="flex-wrap">
 			<nav class="page">
 				<ul class="page_menu">
 					<li class="page_menu-item">
@@ -55,7 +57,7 @@
 <main>
 	<div class="wrapper">
 
-		<nav class="main_navigation">
+		<div class="main_navigation">
 			<ul class="main_menu">
 				<li class="main_menu-item">
 					<a href="#" class="main_menu-link">Рубрика 1</a>
@@ -76,7 +78,7 @@
 					<a href="#" class="main_menu-link">Рубрика 6</a>
 				</li>
 			</ul>
-		</nav>
+		</div>
 
 		<div class="last_note">
 			<h1>Последние записи</h1>
@@ -87,30 +89,30 @@
 			<div class="main_content">
 				<div class="item">
 					<div class="img"></div>
-					<h2>Не большой заголовок к новой записи</h2>
+					<h2 class="item-title"><a href="#">Не большой заголовок к новой записи</a></h2>
 					<span>
 						<a href="#">Оставить коментарий</a>
 						<a href="#">Просмотров:140</a>
 						<a href="#">CSS, Дизайн, Фигуры</a>
 					</span>
 					<p>Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что</p>
-					<button>Далее</button>
+					<a href="#" class="btn">Далее</a>
 				</div>	
 
 				<div class="item">
 					<div class="img"></div>
-					<h2>Не большой заголовок к новой записи</h2>
+					<h2 class="item-title"><a href="#">Не большой заголовок к новой записи</a></h2>
 					<span>
 						<a href="#">Оставить коментарий</a>
 						<a href="#">Просмотров:140</a>
 						<a href="#">CSS, Дизайн, Фигуры</a>
 					</span>
 					<p>Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что</p>
-					<button>Далее</button>
+					<a href="#" class="btn">Далее</a>
 				</div>	
 			</div>
 
-			<div class="main_sidebar">
+			<aside class="main_sidebar">
 				
 
 				<input type="search" placeholder="Поиск...">
@@ -160,7 +162,7 @@
 					<p>Небольшой заголовок к новой записи</p>
 				</div>
 
-			</div>
+			</aside>
 
 		</div>
 	</div>
@@ -171,7 +173,7 @@
 
 
 	<div class="wrapper">
-		<div class="footer-wrap">
+		<div class="flex-wrap">
 
 			<div class="logo">
 				<div class="wrapper">
@@ -179,7 +181,7 @@
 				</div>
 			</div>
 
-			<nav class="page">
+			<div class="page">
 				<ul class="page_menu">
 					<li class="page_menu-item">
 						<a href="#" class="page_menu-link">Страница 1</a>
@@ -191,7 +193,7 @@
 						<a href="#" class="page_menu-link">Страница 3</a>
 					</li>
 				</ul>
-			</nav>
+			</div>
 
 			
 		</div>
