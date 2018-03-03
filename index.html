@@ -13,39 +13,38 @@
 </head>
 <body>
 
-<header>
-	
-	<div class="wrapper">
-		<div class="flex-wrap">
-			<nav class="page">
-				<ul class="page_menu">
-					<li class="page_menu-item">
-						<a href="#" class="page_menu-link">Страница 1</a>
-					</li>
-					<li class="page_menu-item">
-						<a href="#" class="page_menu-link">Страница 2</a>
-					</li>
-					<li class="page_menu-item">
-						<a href="#" class="page_menu-link">Страница 3</a>
-					</li>
-				</ul>
-			</nav>
+<header class="header">	
+	<div class="wrapper flex-wrap">
+		<ul class="page_menu">
+			<li class="page_menu-item">
+				<a href="#" class="page_menu-link">Страница 1</a>
+			</li>
+			<li class="page_menu-item">
+				<a href="#" class="page_menu-link">Страница 2</a>
+			</li>
+			<li class="page_menu-item">
+				<a href="#" class="page_menu-link">Страница 3</a>
+			</li>
+		</ul>
 
-			<div class="social">
+		<ul class="social flex-wrap">
+			<li class="social__item">
 				<a href="#" class="social_link">
 					<i class="fa fa-envelope-o" aria-hidden="true"></i>
 				</a>
+			</li>
+			<li class="social__item">
 				<a href="#" class="social_link">
 					<i class="fa fa-rss" aria-hidden="true"></i>
 				</a>
+			</li>
+			<li class="social__item">
 				<a href="#" class="social_link">
 					<i class="fa fa-twitter" aria-hidden="true"></i>
 				</a>
-			</div>
-
-		</div>
+			</li>
+		</ul>
 	</div>
-
 </header>
 	
 <div class="logo">
@@ -54,11 +53,13 @@
 	</div>
 </div>
 
-<main>
-	<div class="wrapper">
-
-		<div class="main_navigation">
-			<ul class="main_menu">
+<main class="main">
+	<div class="main_navigation">
+		<div class="wrapper">
+			<button class="main_menu-openBtn">
+				<i class="fa fa-bars"></i>
+			</button>
+			<ul class="main_menu flex-wrap">
 				<li class="main_menu-item">
 					<a href="#" class="main_menu-link">Рубрика 1</a>
 				</li>
@@ -79,127 +80,179 @@
 				</li>
 			</ul>
 		</div>
+	</div>
 
+	<div class="wrapper">
 		<div class="last_note">
 			<h1>Последние записи</h1>
 		</div>
+	</div>
 
-		<div class="wrap">	
+	<div class="wrapper flex-default">	
+		<div class="main_content">
+			<div class="main_content-item">
+				<img src="img/800x300.jpg" alt="image800x300">
+				<h2 class="item-title">
+					<a href="#">Не большой заголовок к новой записи</a>
+				</h2>
+				<span>
+					<a href="#">Оставить коментарий</a>
+					<a href="#">Просмотров:140</a>
+					<a href="#">CSS, Дизайн, Фигуры</a>
+				</span>
+				<p>Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что</p>
+				<a href="#" class="btn">Далее</a>
+			</div>	
 
-			<div class="main_content">
-				<div class="item">
-					<div class="img"></div>
-					<h2 class="item-title"><a href="#">Не большой заголовок к новой записи</a></h2>
-					<span>
-						<a href="#">Оставить коментарий</a>
-						<a href="#">Просмотров:140</a>
-						<a href="#">CSS, Дизайн, Фигуры</a>
-					</span>
-					<p>Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что</p>
-					<a href="#" class="btn">Далее</a>
-				</div>	
+			<div class="main_content-item">
+				<img src="img/800x300.jpg" alt="image800x300">
+				<h2 class="item-title">
+					<a href="#">Не большой заголовок к новой записи</a>
+				</h2>
+				<span>
+					<a href="#">Оставить коментарий</a>
+					<a href="#">Просмотров:140</a>
+					<a href="#">CSS, Дизайн, Фигуры</a>
+				</span>
+				<p>Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что</p>
+				<a href="#" class="btn">Далее</a>
+			</div>	
+		</div>
 
-				<div class="item">
-					<div class="img"></div>
-					<h2 class="item-title"><a href="#">Не большой заголовок к новой записи</a></h2>
-					<span>
-						<a href="#">Оставить коментарий</a>
-						<a href="#">Просмотров:140</a>
-						<a href="#">CSS, Дизайн, Фигуры</a>
-					</span>
-					<p>Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что Всем привет. Сегодня мы заденем довольно необычную тему, а именно будущее веб - дизайна, это CSS фигуры. Как известно, что</p>
-					<a href="#" class="btn">Далее</a>
-				</div>	
-			</div>
-
-			<aside class="main_sidebar">
-				
-
+		<aside class="main_sidebar">			
+			
+			<form action="post">
 				<input type="search" placeholder="Поиск...">
 				<span class="input_icon">
-					<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+					<a href="#">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</a>
 				</span>
+			</form>
 
-				<div class="sidebar_item">
-					<div class="sidebar_vidget">
-						<p class="sidebar_vidget-tag">Виджет</p>
-						<span class="sidebar_vidget-icon">
+			<div class="sidebar_item">
+				<div class="sidebar_vidget flex-wrap">
+					<p class="sidebar_vidget-tag">
+						<a href="#">Виджет</a>
+					</p>
+					<span class="sidebar_vidget-icon">
+						<a href="#">
 							<i class="fa fa-tags" aria-hidden="true"></i>
-						</span>
-					</div>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
+						</a>
+					</span>
 				</div>
-
-				<div class="sidebar_item">
-					<div class="sidebar_vidget">
-						<p class="sidebar_vidget-tag">Виджет</p>
-						<span class="sidebar_vidget-icon">
-							<i class="fa fa-tags" aria-hidden="true"></i>
-						</span>
-					</div>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-				</div>
-
-				<div class="sidebar_item">
-					<div class="sidebar_vidget">
-						<p class="sidebar_vidget-tag">Виджет</p>
-						<span class="sidebar_vidget-icon">
-							<i class="fa fa-tags" aria-hidden="true"></i>
-						</span>
-					</div>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-					<p>Небольшой заголовок к новой записи</p>
-				</div>
-
-			</aside>
-
-		</div>
-	</div>
-</main>
-
-<footer>
-
-
-
-	<div class="wrapper">
-		<div class="flex-wrap">
-
-			<div class="logo">
-				<div class="wrapper">
-					<a href="#">Demo</a>
-				</div>
-			</div>
-
-			<div class="page">
-				<ul class="page_menu">
-					<li class="page_menu-item">
-						<a href="#" class="page_menu-link">Страница 1</a>
+				<ul>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
 					</li>
-					<li class="page_menu-item">
-						<a href="#" class="page_menu-link">Страница 2</a>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
 					</li>
-					<li class="page_menu-item">
-						<a href="#" class="page_menu-link">Страница 3</a>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
 					</li>
 				</ul>
 			</div>
 
-			
+			<div class="sidebar_item">
+				<div class="sidebar_vidget flex-wrap">
+					<p class="sidebar_vidget-tag">
+						<a href="#">Виджет</a>
+					</p>
+					<span class="sidebar_vidget-icon">
+						<a href="#">
+							<i class="fa fa-tags" aria-hidden="true"></i>
+						</a>
+					</span>
+				</div>
+				<ul>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sidebar_item">
+				<div class="sidebar_vidget flex-wrap">
+					<p class="sidebar_vidget-tag">
+						<a href="#">Виджет</a>
+					</p>
+					<span class="sidebar_vidget-icon">
+						<a href="#">
+							<i class="fa fa-tags" aria-hidden="true"></i>
+						</a>
+					</span>
+				</div>
+				<ul>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+					<li>
+						<a href="#">Небольшой заголовок к новой записи</a>
+					</li>
+				</ul>
+			</div>
+
+		</aside>
+
+	</div>
+</main>
+
+<footer class="footer">
+
+	<div class="wrapper flex-wrap">
+
+		<div class="logo">
+			<a href="#">Demo</a>
 		</div>
+
+		<div class="page">
+			<ul class="page_menu">
+				<li class="page_menu-item">
+					<a href="#" class="page_menu-link">Страница 1</a>
+				</li>
+				<li class="page_menu-item">
+					<a href="#" class="page_menu-link">Страница 2</a>
+				</li>
+				<li class="page_menu-item">
+					<a href="#" class="page_menu-link">Страница 3</a>
+				</li>
+			</ul>
+		</div>
+		
 	</div>
 	
 </footer>
-	
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
